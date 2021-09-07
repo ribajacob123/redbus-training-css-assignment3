@@ -49,7 +49,7 @@ ul{
 }
 
 .searchresults{
-    font-size: 10px;
+    font-size: 11px;
     color: #3e3e52;
     width: 100%;
     height: auto;
@@ -158,12 +158,11 @@ ul{
 }
 .reststop{
     color: rgba(27, 27, 116, 0.87);
-    font-size: 13px;
+    font-size: 12px;
 }
 .timings{
-    font-size: 17px;
+    font-size: 16px;
     color: #3e3e52;
-    font-weight: 900;
 }
 .hrs{
     font-size: 12px;
@@ -171,19 +170,18 @@ ul{
 }
 
 .bo{
-    font-family:sans-serif;
-    font-size: 15px;
+    font-size: 14px;
     color: #3e3e52;
     font-weight: 900;
 }
 .type{
-    font-size: 14px;
+    font-size: 13px;
     color:rgb(172, 172, 172);
 }
 
 .thirdrow{
     color: #3e3e52;
-    font-size: 13px;
+    font-size: 12px;
 }
 
 #legroom{
@@ -205,6 +203,10 @@ ul{
 
 
 @media only screen and (max-width: 351px) {
+
+    .grid-container{
+        grid-template-columns: 78fr 22fr;
+    }
 
     .discount{
         font-size: 9px;
@@ -264,3 +266,4 @@ ul{
         width: fit-content;
     }
 }
+
